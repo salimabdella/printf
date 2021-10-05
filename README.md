@@ -3,7 +3,7 @@
 It does the following 
   
 <h3><ol>Produces an output according to the format specified</ol><h3>
-  <li> c</li>
+  <li>c</li>
   <li>s</li>
   <li>%</li>
   
