@@ -1,17 +1,13 @@
-#ifndef PRINT_F
-#define PRINT_F
+#include <unistd.h>
 
-int _printf(const char *format, ...);
 /**
- * print - creating a struct to store the specifier
- * and the neccessary function
- * specifier: the specifier passed
- * @f: calls the neccessary function needed
- */
-typedef struct print
+ *  * _putchar - writes the character c to stdout
+ *   * @c: The character to print
+ *    *
+ *     * Return: On success 1.
+ *      * On error, -1 is returned, and errno is set appropriately.
+ *       */
+int _putchar(char c)
 {
-	char *specifier;
-	int (*f)(va_list);
-}print_t;
-
-#endif
+		return (write(1, &c, 1));
+}
