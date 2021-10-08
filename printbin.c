@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 int printbin(char *format, va_list pa)
 {
     unsigned int num = va_arg(pa, unsigned int);
