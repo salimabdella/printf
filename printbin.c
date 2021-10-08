@@ -1,12 +1,5 @@
 #include "main.h"
 
-
-/**
- * printbin - prints a binary
- * @format: format to print binary
- * @pa: va_list that contains the binary to print
- * Return: number of digits printed
- */
 int printbin(char *format, va_list pa)
 {
     unsigned int num = va_arg(pa, unsigned int);
